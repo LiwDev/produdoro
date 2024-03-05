@@ -9,3 +9,7 @@ server:
         uri: ${MONGO_DB_URI:mongodb+srv://liwdev23:K5byF4kZxDlWbxcK@cluster0.peh5zhp.mongodb.net/cluster0?retryWrites=true&w=majority&appName=Cluster0}
         auto-index-creation: true
 
+      springdoc:
+          swagger-ui:
+            path: /swagger
+
